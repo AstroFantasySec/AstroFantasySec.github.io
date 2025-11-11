@@ -1,341 +1,229 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta name="viewport"context="width=device-width">
-    <title>AFS-HOME</title>
-<link rel="stylesheet" type="text/css" href= "slides1.css">
-<style>
-
-body{ /*To help orgizine structure putting elements on website*/
-   background-color:#00008B;
-    margin: 0;
-    width: 1900px;
-    height: 1900px;
-    padding-top: -10px;
- overflow-y: scroll;
-    overflow-x: hidden /* Hide scrollbars */;
-    
-}
-nav {
-height: 20px;
-text-align: center;
-padding-top: 1px;
-padding-bottom: 50px;
-background-color :  	#9028c5;
- width: 900px;
-    margin-left: 150px;
-
-
-}
-
-li {
-padding: 20px;
-display:inline;
-}
-
-li a {
-font-size: 20px;
-color: 	#0000A0;
-padding: 14px 16px;
-text-decoration: none;
-
-}
-#Newgamesec{
-    background-color: #6A0DAD;
-	width: 330px;
-	height: 390px;
-    padding: 10px;
-	margin-left:20px;
-	margin-top: 200px;
-}
-#Newsapproach{
-  background-color: #6A0DAD;
-	width: 330px;
-	height: 390px;
-    padding: 10px;
-    margin-left: -699px;
-	margin-top:-390px;
-}
-#NewUpdateLog{
-          background-color: #6A0DAD;
-	width: 330px;
-	height: 390px;
-    padding: 10px;
-    margin-left:850px;
-	margin-top:-390px;  
-}
-
-#SocialMedia{
-  background-color: #6A0DAD;
-	width: 330px;
-	height: 390px;
-    padding: 10px;
-   margin-top: 130px;
-   margin-left: 20px;;
-}
-
-#FrontSec{
- margin-top:450px;
-}
-
-footer{
-  height: 350px;
-width: 1000px;
- margin-top:100px;
-background-color :  	#9028c5;
- 
-    margin-left: 150px;
-}
-    #RAVE{
-          background-color: #6A0DAD;
-	width: 655px;
-	height: 390px;
-    padding: 10px;
-   margin-top: -390px;
-   margin-left: 480px;
-    }
-    </style>
-    <style>
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  left:270px; 
-  top:200px;
-  position: relative;
-  margin: auto;
-}
-
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 50px;
-  width: 100%;
-    left: 270px;
-  
-}
-
-
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  
-  margin-top: 500px;  /*This will be use for loading and impossible movemnets with top,left etc*/
-  background-color: #bbb;
- 
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-
-
-</style>
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AFS-HOME</title>
+  <link rel="stylesheet" href="/CSS/MainStyle.css">
 </head>
 
-<body >
-<section id ="LOGOWEB" style="margin-left:150px;">
-    <img src="img/coollogo_com-8231389.png">
-<br/>Logo Design by <a href="https://flamingtext.com/" style="color:aqua;" >FlamingText.com</a> <h5 style="margin-top:-15px; margin-left:300px;">website created by strikermi9</h5>
+<body>
+  <header>
+    <section id="LOGOWEB">
+      <img src="img/coollogo_com-8231389.png" alt="AstroFantasySec Logo">
+      <p>Logo Design by <a href="https://flamingtext.com/">FlamingText.com</a></p>
+      <h5>Website created by strikermi9</h5>
     </section>
-    
-<header>
-<nav>
-<ul>
-<li><a href = "index.html"><img src="img/cooltext424907127026213_HOME.png" style="height:35px; width:60px; margin-top:-10px;"></a></li>
-<li><a href = "Games.html"><img src="img/cooltext424908200011207_games.png" style="height:35px; width:60px; margin-top:-10px;"></a></li>
-<li><a href = "project.html"><img src="img/cooltext424908421827978_Projects.png" style="height:35px; width:90px; margin-top:-10px;"></a></li>
-<li><a href = "Update_log.html"><img src="img/cooltext424908936361978_log.png" style="height:35px; width:60px; margin-top:-10px;"></a></li>
-<li><a href = "author.html"><img src="img/cooltext424909095748843_ame.png" style="height:35px; width:60px; margin-top:-10px;"></a></li>
-<li><a href = "Contact.html"><img src="img/cooltext424909216399372_contact.png" style="height:35px; width:60px; margin-top:-10px;"></a></li>
-</ul>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html"><img src="img/cooltext424907127026213_HOME.png" alt="Home"></a></li>
+        <li><a href="Games.html"><img src="img/cooltext424908200011207_games.png" alt="Games"></a></li>
+        <li><a href="project.html"><img src="img/cooltext424908421827978_Projects.png" alt="Projects"></a></li>
+        <li><a href="Update_log.html"><img src="img/cooltext424908936361978_log.png" alt="Log"></a></li>
+        <li><a href="author.html"><img src="img/cooltext424909095748843_ame.png" alt="About Me"></a></li>
+        <li><a href="Contact.html"><img src="img/cooltext424909216399372_contact.png" alt="Contact"></a></li>
+      </ul>
     </nav>
-</header>
+  </header>
 
-<Section id = "Slides">
+  <main>
+    <!-- Slides -->
+    <section class="slideshow-container">
+      <!-- Slide 1 -->
+      <div class="mySlides fade">
+        <img src="img/welcomeToThesite.png" alt="Welcome" class="slide-img">
+        <div class="text">Welcome to AstroFantasySec</div>
+      </div>
 
-<!-- Slideshow container -->
-<div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <img src="img/welcomeToThesite.png" style="width:35%"> <!-- change the size the slides img-->
       
+      <div class="mySlides fade">
+        <a href="Grocerey_Catcherzzz.html">
+          <img src="img/GCSLide.png" alt="Grocery Catcherzzz" class="slide-img">
+        </a>
+        <div class="text">Try out my game Grocery Catcherzzz</div>
+      </div>
+
       
-    <div class="text" style="margin-left:-80px;">Welcome to AstroFantasySec</div>
+      <div class="mySlides fade">
+        <a href="TVE.html">
+          <img src="img/TVESLIDE.png" alt="TVE Game" class="slide-img">
+        </a>
+        <div class="text">Try out TVE The Game</div>
+      </div>
+
+      
+      <div class="mySlides fade">
+        <a href="ETZ.html">
+          <img src="img/Start_mainmenuDesignwebslide.png" alt="ETZ Beta" class="slide-img">
+        </a>
+        <div class="text">Check out my game ETZ beta</div>
+      </div>
+
+      <!-- Dots slides -->
+      <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </section>
+
+    <section class="content-grid">
+      <div class="card" id="Newgamesec">
+        <h2>New Games</h2>
+        <div class="game-icon-row">
+    <a href="Grocerey_Catcherzzz.html">
+      <img src="img/IconGC.png" alt="Grocery Catcherzzz" class="game-icon">
+    </a>
+    <a href="TVE.html">
+      <img src="img/benjamin-nunoo-start-menu-logo.jpg" alt="TVE Game" class="game-icon">
+    </a>
+    <a href="ETZ.html">
+      <img src="img/Start_mainmenuDesign%20(1)%20(1).png" alt="ETZ Game" class="game-icon">
+    </a>
   </div>
 
-  <div class="mySlides fade">
-      <a href="Grocerey_Catcherzzz.html"><img src="img/GCSLide.png" style="width:35%"></a>
-    <div class="text" style="margin-left:-100px;">Try out my Game Groccery Catcherzzz</div>
+      </div>
+
+      <div class="card" id="Newsapproach">
+        <h2>News Approach</h2>
+        <p style="color:black;">*Uses American Date Format</p>
+        <div id ="NewsLogScroll">
+        <a href="https://astrofantasysec.blogspot.com/2022/12/news-update-1.html">
+        <p>~12/06/22~ News Log #1 </p></a>
+        <a href="https://astrofantasysec.blogspot.com/2022/12/news-update-2.html">
+        <p>~12/09/22~ News Log #2 </p></a>
+        <a href="https://astrofantasysec.blogspot.com/2022/12/news-update-3.html">
+        <p>~12/12/22~ News Log #3 </p></a>
+        <a href="https://astrofantasysec.blogspot.com/2023/01/news-update-4.html">
+        <p>~01/02/23~ News Log #4 </p></a>
+        <a href="https://astrofantasysec.blogspot.com/2023/06/news-update-5.html">
+        <p>~06/16/23~ News Log #5 </p></a>
+        <a href="https://astrofantasysec.blogspot.com/2023/09/news-update-6.html">
+        <p>~09/25/23~ News Log #6 </p></a>
+        <a href="https://astrofantasysec.blogspot.com/2025/11/news-update-7.html">
+        <p>~11/10/23~ News Log #7 </p></a>
+        </div>
+        
+      </div>
+
+      <div class="card" id="NewUpdateLog">
+        <h2>Game Log</h2>
+        <p style="color:black;">*Uses American Date Format</p>
+        <div id ="GameLogScroll">
+        <a href="https://astrofantasysec.blogspot.com/2022/12/update-log-1.html">
+        <p>~12/06/22~ Game Log #1 </p></a>
+        <a href="https://astrofantasysec.blogspot.com/2022/12/update-log-2.html">
+        <p>~12/09/22~ Game Log #2 </p></a>
+        <a href="https://astrofantasysec.blogspot.com/2022/12/update-3.html">
+        <p>~12/12/22~ Game Log #3 </p></a>
+        <a href="https://astrofantasysec.blogspot.com/2023/01/update-log-4.html">
+        <p>~01/02/23~ Game Log #4 </p></a>
+        <a href="https://astrofantasysec.blogspot.com/2023/06/update-log-5.html">
+        <p>~06/16/23~ Game Log #5 </p></a>
+        <a href="https://astrofantasysec.blogspot.com/2023/09/update-log-6.html">
+        <p>~09/25/23~ Game Log #6 </p></a>
+        <a href="https://astrofantasysec.blogspot.com/2025/11/update-log-7.html">
+        <p>~11/10/23~ Game Log #7 </p></a>
+        </div>
+      </div>
+
+      <div class="card" id="SocialMedia">
+        <h2>Social Media</h2>
+        <div class="Social-icon-row">
+    <a href="https://www.instagram.com/strikermi9/?hl=en-gb">
+      <img src="img/instalogo.png" alt="INSTA" class="Social-icon">
+    </a>
+    <a href="https://www.facebook.com/benjamin.nunoo.77">
+      <img src="img/Facebook_Logo_(2019).png" alt="TVE Game" class="Social-icon">
+    </a>
+    <a href="https://www.youtube.com/channel/UCf_74K7dKaLETrquEJGRXzQ">
+      <img src="img/ytLOGO.png" alt="ETZ Game" class="Social-icon">
+    </a>
+      <a href="https://www.artstation.com/strikermi9">
+      <img src="img/artstationlogo.png" alt="ETZ Game" class="Social-icon">
+    </a>
+      <a href="https://discord.com/users/strikermi9#9531">
+      <img src="img/discord-logo-png-7617.png" alt="ETZ Game" class="Social-icon">
+    </a>
+          
+        </div>
+      </div>
+
+      <div class="card" id="RAVE">
+        <h2>RAVENSBOURNE</h2>
+        <div id ="RAVES">
+        <a href="https://bnunoo.myportfolio.com/year-1">
+          <img src="img/RAVEASTRO.png" alt="RAVELOGO" class="Rave-Icon">
+          </a>
+        </div>
+      </div>
+      
+      <div class="card" id="STAFFS">
+        <h2>TEAM-PARTNERS</h2>
+      </div>
+      
+    </section>
+  </main>
+
+  <footer>
+  <div class="footer-grid">
+    <!-- Logo and site info -->
+    <div class="footer-section logo-badge">
+      <img src="img/coollogo_com-8231389.png" alt="AstroFantasySec Logo">
+      <p>Site Creator: strikermi9 (Benjamin Nunoo)</p>
+      <p>This site was hosted by GitHub</p>
+      <p>Copyright ©2022 AstroFantasySec</p>
+    </div>
+
+    <!-- Navlinks -->
+    <div class="footer-section">
+      <h3>Navigation</h3>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="Games.html">Games</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="Update_log.html">Log</a></li>
+        <li><a href="author.html">About Me</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Creative tools that I used -->
+    <div class="footer-section">
+      <h3>Creative Design</h3>
+      <ul>
+        <li><a href="https://flamingtext.com/">FlamingText</a></li>
+        <li><a href="https://www.fontspace.com/">Fontspace</a></li>
+        <li><a href="https://cooltext.com/">Cool Text</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Media links -->
+    <div class="footer-section">
+      <h3>Social</h3>
+      <ul>
+        <li><a href="https://www.instagram.com/strikermi9/?hl=en-gb">Instagram</a></li>
+        <li><a href="https://www.facebook.com/benjamin.nunoo.77">Facebook</a></li>
+        <li><a href="https://www.artstation.com/strikermi9">ArtStation</a></li>
+        <li><a href="https://www.youtube.com/channel/UCf_74K7dKaLETrquEJGRXzQ">YouTube</a></li>
+        <li><a href="https://discord.com/users/strikermi9#9531">Discord</a></li>
+      </ul>
+    </div>
+
+    <!-- Code editors that I have used prev and now -->
+    <div class="footer-section">
+      <h3>Code Editors</h3>
+      <ul>
+        <li><a href="https://brackets.io/">Brackets</a></li>
+        <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+        <li><a href="https://notepad-plus-plus.org/downloads/">Notepad++</a></li>
+      </ul>
+    </div>
   </div>
-
-  <div class="mySlides fade">
-     <a href="TVE.html"><img src="img/TVESLIDE.png" style="width:35%"></a>
-    <div class="text" style="margin-left:-30px;">Try out TVE The Game</div>
-  </div>
-  <div class="mySlides fade">
-     <a href="ETZ.html"><img src="img/Start_mainmenuDesignwebslide.png" style="width:35%"></a>
-    <div class="text" style="margin-left:-30px;">Check out my new game ETZ beta</div>
-  </div>
-
-
-<!-- The dots/circles -->
-<div style="margin-top:-400px; margin-left: 310px;">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-   <span class="dot" onclick="currentSlide(4)"></span>
-</div>
-</section>
-    
-<section id ="FrontSec">
-<div id = "Newgamesec" >
-<h1 style="margin-top:-70px; margin-left: 50px;"> New games</h1>
-<a href="Grocerey_Catcherzzz.html"><img src ="img/IconGC.png" style="height:70px; width:70px; margin-top:20px;"></a>
- <a href="TVE.html"><img src="img/benjamin-nunoo-start-menu-logo.jpg" style="height:70px; width:70px; margin-top:20PX; margin-left: 30px;"></a>
-  <a href="ETZ.html"> <img src="img/Start_mainmenuDesign%20(1)%20(1).png" style="height:70px; width:70px; margin-top:20PX; margin-left: 30px;"></a>
-</div>
-</section>
-    
-<center><div id= "Newsapproach">
-<h1 style="margin-top:-100px; margin-left: 25px;"><center>News approach</center></h1>
-     <a href="https://astrofantasysec.blogspot.com/2022/12/news-update-3.html"><h3 style="margin-top:60px; color:rgb(34, 165, 182)">
-        ~12/12/22~ News Log #3 </h3></a>
-    <a href="https://astrofantasysec.blogspot.com/2023/01/news-update-4.html"><h3 style="margin-top:30px; color:rgb(34, 165, 182)">
-        ~1/2/23~ News Log #4 </h3></a>
-      <a href="https://astrofantasysec.blogspot.com/2023/06/news-update-5.html"><h3 style="margin-top:30px; color:rgb(34, 165, 182)">
-        ~6/17/23~ News Log #5 </h3></a>
-    <a href="https://astrofantasysec.blogspot.com/2023/09/news-update-6.html"><h3 style="margin-top:30px; color:rgb(34, 165, 182)">
-        ~9/25/23~ News Log #6 </h3></a>
-    </div></center>
-  
-    
-<div id="NewUpdateLog"><h1 style=" margin-top:-90px; margin-left: 50px; ">Game log</h1>
-   <a href="https://astrofantasysec.blogspot.com/2022/12/update-log-1.html" ><h3 style="margin-top:100px; color:rgb(34, 165, 182)"> 
-    ~12/6/22~ - Update Log #1  </h3></a>
-    <a href="https://astrofantasysec.blogspot.com/2022/12/update-log-2.html"><h3 style="margin-top:30px; color:rgb(34, 165, 182)">
-      ~12/9/22~ - Update Log #2</h3></a>
-    <a href="https://astrofantasysec.blogspot.com/2022/12/update-3.html"><h3 style="margin-top:30px; color:rgb(34, 165, 182)">~12/12/22~ - Update Log #3</h3></a>
-    
-      <a href="https://astrofantasysec.blogspot.com/2023/01/update-log-4.html"><h3 style="margin-top:30px; color:rgb(34, 165, 182)">~1/2/23~ - Update Log #4</h3></a>
-              <a href="https://astrofantasysec.blogspot.com/2023/06/update-log-5.html"><h3 style="margin-top:30px; color:rgb(34, 165, 182)">~6/17/23~ - Update Log #5</h3></a>
-    <a href="https://astrofantasysec.blogspot.com/2023/09/update-log-6.html"><h3 style="margin-top:30px; color:rgb(34, 165, 182)">~9/25/23~ - Update Log #6</h3></a>
-</div>
-<div id="SocialMedia"><h1 style=" margin-top:-55px; margin-left:20px;">Social Media</h1>
-<a href="https://www.instagram.com/strikermi9/?hl=en-gb"><img src="img/instalogo.png" style="height:70px; width:70px; margin-top:10px;"></a>
-<a href="https://www.facebook.com/benjamin.nunoo.77"><img src="img/Facebook_Logo_(2019).png" style="height:70px; width:70px; margin-top:10px; margin-left: 30px;"></a>
-<a href="https://www.youtube.com/channel/UCf_74K7dKaLETrquEJGRXzQ"><img src="img/ytLOGO.png" style="height:70px; width:70px; margin-top:10px; margin-left: 30px; "></a>
-<a href="https://www.artstation.com/strikermi9"><img src="img/artstationlogo.png" style="height:70px; width:70px; margin-top:50px; margin-left: -5px;"></a>
-<a href="https://discord.com/users/strikermi9#9531"><img src="img/discord-logo-png-7617.png" style="height:70px; width:70px; margin-top:50px; margin-left: 30px;"></a>
-</div>
-	<div id="RAVE"> <h1 style="margin-top:-80px; margin-left:350x;">RAVENSBOURNE</h1>
-        <a href="https://bnunoo.myportfolio.com/year-1"><img src="img/RAVEASTRO.png" style=" height: 350px; width: 600px; margin-top: 40px; margin-left:20px; "></a>
-    </div>
- <div id=" latestVid"></div>
-</section>
-<script>
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-</script>
-<script> /* This gotten from vid to help resoultion of site for differen screen*/ 
-if (screen.width>=1500) {document.write("<style>body{zoom:147%;}</style>");}
-if (screen.width>=2000) {document.write("<style>body{zoom:180%;}</style>")}
-</script>
-</body>
-<footer>
-  <img src="img/coollogo_com-8231389.png" style="height: 55px ; width:210px; margin-top:30px; ">
-<p >Site Creator:strikermi9(Benjamin Nunoo)</p>
-    <p>This site was hosted by GitHub</p>
-    <p>Copyright ©2022 AstroFantasySec </p>
-    <div id="FooterNav" style=" margin-top: -120px; margin-left: 390px;">
-    <h3 style="margin-top:-100px;">Nav</h3>
-        <a href="index.html"><p>HOME</p></a>
-        <a href="Games.html"><p>Games</p></a>
-        <a href="project.html"><p>Project</p></a>
-        <a href="Update_log.html"><p>log</p></a>
-        <a href="author.html"><p>About Me</p></a>
-        <a href="Contact.html"><p>Contact</p></a>
-    </div>
-    
-    <div id="Footer_Creative" style=" margin-top: -250px; margin-left:500px;">
-   <h3 style="margin-top:-100px;">Creative_design</h3>
-        <a href="https://flamingtext.com/"<p>FlaminText</p>
-    <a href="https://www.fontspace.com/"><p>Fontspace</p></a>
-    <a href="https://cooltext.com/"><p>Cool Text</p></a>
-        
-    </div>
-    
-        
-    <div id="Social" style=" margin-top: -55px; margin-left:720px;">
-        <h3 style="margin-top:-145px;">Social</h3>
-        <a href="https://www.instagram.com/strikermi9/?hl=en-gb"><p>Instagram</p></a>
-        <a href="https://www.facebook.com/benjamin.nunoo.77"><p>FacebooK</p></a>
-        <a href="https://www.artstation.com/strikermi9"><p>Artstation</p></a>
-        <a href="https://www.youtube.com/channel/UCf_74K7dKaLETrquEJGRXzQ"><p>Youtube</p></a>
-    <a href="https://discord.com/users/strikermi9#9531"><p>Discord</p></a>
-        
-        
-    </div>
-    
-        
-    <div id="codeditor" style=" margin-top: -220px; margin-left:849px;">
-        <h3 style="margin-top:-145px;">Code_editors</h3>
-        <a href="https://brackets.io/"><p>Brackets</p></a>
-    <a href="https://code.visualstudio.com/"><p>Visual Studio code</p></a>
-    <a href="https://notepad-plus-plus.org/downloads/"><p>Notepad++</p></a>
-    </div>
 </footer>
 
-
+  <script src="/Javascript/slideshow.js"></script>
+</body>
 </html>

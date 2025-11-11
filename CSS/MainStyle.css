@@ -1,0 +1,258 @@
+
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  background-color: #00008B;
+  color: white;
+}
+
+#LOGOWEB {
+  text-align: center;
+  margin: 30px auto;
+}
+
+#LOGOWEB img {
+  max-width: 100%;
+  height: auto;
+}
+
+#LOGOWEB p,
+#LOGOWEB h5 {
+  margin: 10px 0;
+}
+
+
+nav {
+  background-color: #9028c5;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Slideshow */
+.slideshow-container {
+  position: relative;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.slide-img {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #f2f2f2;
+}
+
+/* Dots */
+.dots {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #717171;
+}
+
+/* Content grid */
+.content-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px auto;
+  max-width: 1200px;
+}
+
+.card {
+  background-color: #6A0DAD;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.game-icon-row {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Social-icon-row {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.game-icon {
+  height: 70px;
+  width: 70px;
+  transition: transform 0.3s ease;
+}
+
+.Social-icon {
+  height: 70px;
+  width: 70px;
+  transition: transform 0.3s ease;
+}
+
+.game-icon:hover {
+  transform: scale(1.1);
+}
+
+.Social-icon:hover {
+  transform: scale(1.1);
+}
+
+.Rave-Icon {
+  height: 238px;
+  width: 234px;
+  transition: transform 0.3s ease;
+}
+.Rave-Icon:hover {
+  transform: scale(1.1);
+}
+#NewsLogScroll {
+  max-height: 150px; 
+  overflow-y: auto;
+  padding-right: 10px; /* Prevent content from hiding behind scrollbar */
+}
+
+#NewsLogScroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+#NewsLogScroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+#NewsLogScroll::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+#NewsLogScroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#GameLogScroll {
+  max-height: 150px; 
+  overflow-y: auto;
+  padding-right: 10px; /* Prevent content from hiding behind scrollbar */
+}
+
+#GameLogScroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+#GameLogScroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+#GameLogScroll::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+#GameLogScroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+footer {
+  background-color: #9028c5;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  min-width: 200px;
+}
+
+.footer-section img {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin: 5px 0;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .slideshow-container {
+    max-width: 100%;
+    margin: 20px;
+  }
+
+  .content-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
