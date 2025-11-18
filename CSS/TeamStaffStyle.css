@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   font-family: Verdana, sans-serif;
@@ -6,7 +5,7 @@ body {
   color: white;
 }
 
-
+/* Logo Section */
 #LOGOWEB {
   text-align: center;
   margin: 30px auto;
@@ -22,7 +21,7 @@ body {
   margin: 10px 0;
 }
 
-
+/* Navigation */
 nav {
   background-color: #9028c5;
   padding: 10px;
@@ -39,64 +38,60 @@ nav {
   display: inline-block;
   margin: 0 10px;
 }
-/* Project Banner */
-.project-banner {
-  text-align: center;
-  margin: 60px auto 30px;
-}
 
-.project-banner img {
-  max-width: 600px;
-  height: auto;
-  border-radius: 10px;
-}
-
-
-.Project_select_Sec {
-  background-color: #9028c5;
-  max-width: 1000px;
+.TeamList_SEC{
+ background-color: #9028c5;
+  max-width: 714px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 46px 20px;
   border-radius: 10px;
   box-sizing: border-box;
-     margin-bottom: 60px;
+  margin-bottom: 60px; 
+    margin-top: 52px;
 }
 
-.project-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  margin-bottom: 40px; /*change the gap between  project slect and footer*/
+.TeamsList_sub_header{
+      text-align: center;
+  margin: 55px auto 30px;
+    margin-right: 50px;
 }
 
-.project-grid a img {
-  max-width: 220px;
-  height: auto;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-}
-
-.project-grid a img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-}
-
-/* Astro site 2 Rave Section */
-.rave-section {
-  text-align: center;
-  margin-top: 40px;
-}
-
-.rave-section img {
-  max-width: 600px;
-  height: auto;
+.TeamsList_sub_header h3{
+    margin-left: 40px; 
+    margin-top:37px;
   border-radius: 10px;
-  transition: transform 0.3s ease;
+}
+.TEAMList-Container{
+    height: 129px;
+    margin-top: -65px;
 }
 
-.rave-section img:hover {
-  transform: scale(1.03);
+.TEAMS_Links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+
+.TEAMS_Links li {
+  margin: 0;
+    
+}
+
+.TEAMS_Links a{
+   color: blue;
+  text-decoration: none; 
+      transition: transform 0.3s ease;
+    font-size: 26px;
+    
+}
+.TEAMS_Links a:hover{
+   /* transform: scale(1.1);*/
+
+    color: aqua;
 }
 
 footer {
@@ -148,31 +143,18 @@ footer {
   text-decoration: underline;
 }
 
-
-
-
 /* Responsive Tweaks */
 @media (max-width: 768px) {
-  .slideshow-container {
-    max-width: 100%;
-    margin: 20px;
+  .video-section iframe {
+    height: 300px;
   }
 
-  .content-grid {
+  .footer-grid {
     flex-direction: column;
     align-items: center;
   }
 
-  .card {
-    width: 90%;
-  }
-
-  .GameIndexNav ul {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .footer-grid {
+  .links {
     flex-direction: column;
     align-items: center;
   }
