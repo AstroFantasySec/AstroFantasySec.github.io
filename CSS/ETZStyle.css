@@ -20,37 +20,6 @@ body {
   margin: 10px 0;
 }
 
-.LOG-banner {
-  text-align: center;
-  margin: 60px auto 30px;
-}
-
-.LOG-banner img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.LOG-section {
-  max-width: 1000px;
-  margin: 0 auto 60px;
-  padding: 20px;
-  background-color: #9028c5;
-  border-radius: 10px;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.LOGSPACE iframe {
-  width: 100%;
-  max-width: 750px;
-  height: 1000px;
-  margin-top: 35px;
-  border: none;
-  border-radius: 8px;
-}
-
-
 
 nav {
   background-color: #9028c5;
@@ -69,6 +38,49 @@ nav {
   margin: 0 10px;
 }
 
+.etz-section {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: #9028c5;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.etz-banner,
+.etz-video {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.etz-banner img {
+  width: 100%;
+  max-width: 645px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.etz-video iframe {
+  width: 100%;
+  max-width: 850px;
+  height: 520px;
+  border: none;
+  border-radius: 10px;
+}
+
+.etz-description {
+  padding: 20px;
+  text-align: center;
+}
+
+.etz-description h3 {
+  margin-bottom: 10px;
+}
+
+.etz-description p {
+  line-height: 1.6;
+  font-size: 16px;
+}
 
 
 footer {
@@ -118,22 +130,4 @@ footer {
 
 .footer-section a:hover {
   text-decoration: underline;
-}
-
-
-/* Responsive tweaks */
-@media (max-width: 768px) {
-  .slideshow-container {
-    max-width: 100%;
-    margin: 20px;
-  }
-
-  .content-grid {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card {
-    width: 90%;
-  }
 }

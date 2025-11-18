@@ -5,6 +5,7 @@ body {
   color: white;
 }
 
+/* Logo Section */
 #LOGOWEB {
   text-align: center;
   margin: 30px auto;
@@ -20,38 +21,7 @@ body {
   margin: 10px 0;
 }
 
-.LOG-banner {
-  text-align: center;
-  margin: 60px auto 30px;
-}
-
-.LOG-banner img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.LOG-section {
-  max-width: 1000px;
-  margin: 0 auto 60px;
-  padding: 20px;
-  background-color: #9028c5;
-  border-radius: 10px;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.LOGSPACE iframe {
-  width: 100%;
-  max-width: 750px;
-  height: 1000px;
-  margin-top: 35px;
-  border: none;
-  border-radius: 8px;
-}
-
-
-
+/* Navigation */
 nav {
   background-color: #9028c5;
   padding: 10px;
@@ -69,8 +39,68 @@ nav {
   margin: 0 10px;
 }
 
+/* Main Content */
+.content-container {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: #9028c5;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
 
+.content-container img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
 
+.description p {
+  line-height: 1.6;
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Video Section */
+.video-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.video-section iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Links Section */
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.links img {
+  height: auto;
+  border-radius: 8px;
+}
+
+.links .artstation-logo {
+  width: 250px;
+  height: 50px;
+}
+
+.links .word-logo {
+  width: 90px;
+  height: 90px;
+}
+
+/* Footer */
 footer {
   background-color: #9028c5;
   color: white;
@@ -120,20 +150,19 @@ footer {
   text-decoration: underline;
 }
 
-
-/* Responsive tweaks */
+/* Responsive Tweaks */
 @media (max-width: 768px) {
-  .slideshow-container {
-    max-width: 100%;
-    margin: 20px;
+  .video-section iframe {
+    height: 300px;
   }
 
-  .content-grid {
+  .footer-grid {
     flex-direction: column;
     align-items: center;
   }
 
-  .card {
-    width: 90%;
+  .links {
+    flex-direction: column;
+    align-items: center;
   }
 }

@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: Verdana, sans-serif;
@@ -20,37 +21,6 @@ body {
   margin: 10px 0;
 }
 
-.LOG-banner {
-  text-align: center;
-  margin: 60px auto 30px;
-}
-
-.LOG-banner img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.LOG-section {
-  max-width: 1000px;
-  margin: 0 auto 60px;
-  padding: 20px;
-  background-color: #9028c5;
-  border-radius: 10px;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.LOGSPACE iframe {
-  width: 100%;
-  max-width: 750px;
-  height: 1000px;
-  margin-top: 35px;
-  border: none;
-  border-radius: 8px;
-}
-
-
 
 nav {
   background-color: #9028c5;
@@ -69,6 +39,54 @@ nav {
   margin: 0 10px;
 }
 
+.GC_SEC {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: #9028c5;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.GC_Game iframe {
+  width: 100%;
+  height: 725px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Controls and Description */
+.GCControls_Description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.controls,
+.description {
+  flex: 1 1 45%;
+  padding: 20px;
+}
+
+.controls h3,
+.description h3 {
+  margin-bottom: 10px;
+}
+.Options-menu,
+.keys-menu,
+.keys-gameplay {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.Options-menu img,
+.keys-menu img,
+.keys-gameplay img {
+  width: 50px;
+  height: 50px;
+}
 
 
 footer {
