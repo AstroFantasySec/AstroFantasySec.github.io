@@ -99,6 +99,11 @@ nav {
   border-radius: 10px;
   box-sizing: border-box;
 }
+.card p {
+  color:aqua;
+  text-decoration: underline;
+
+}
 
 .game-icon-row {
   display: flex;
@@ -130,6 +135,12 @@ nav {
   transition: transform 0.3s ease;
 }
 
+.Profile-icon {
+  height: 70px;
+  width: 70px;
+  transition: transform 0.3s ease;
+}
+
 .game-icon:hover {
   transform: scale(1.1);
 }
@@ -137,6 +148,11 @@ nav {
 .Social-icon:hover {
   transform: scale(1.1);
 }
+
+.Profile-icon:hover {
+  transform: scale(1.1);
+}
+
 
 .Rave-Icon {
   height: 238px;
