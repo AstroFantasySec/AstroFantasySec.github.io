@@ -44,15 +44,15 @@ nav {
 .AboutBanner {
   text-align: center;
   margin: 60px auto 30px;
-    margin-right: 522px;
 }
 
 .AboutBanner img {
-  max-width: 600px;
+  max-width: 100%;
   height: auto;
   border-radius: 10px;
  
 }
+
 
 .ABOUTMESEC {
   max-width: 1000px;
