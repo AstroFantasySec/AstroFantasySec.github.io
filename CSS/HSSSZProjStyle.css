@@ -5,7 +5,6 @@ body {
   color: white;
 }
 
-/* Logo Section */
 #LOGOWEB {
   text-align: center;
   margin: 30px auto;
@@ -21,7 +20,7 @@ body {
   margin: 10px 0;
 }
 
-/* Navigation */
+
 nav {
   background-color: #9028c5;
   padding: 10px;
@@ -32,6 +31,11 @@ nav {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 10px;
 }
 
 .HSSSZ-section {
