@@ -98,11 +98,59 @@ nav {
   
 }
 
-.HSSSZ_Widget
-{
-   padding: 20px;
-  text-align: center;
+.HSSSZ_Widget {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;   /* stack vertically */
+  justify-content: center; 
+  align-items: center;       
+  gap: 25px;                 /* space between top and bottom embed */
+  width: 100%;
 }
+
+
+.custom-embed {
+  width: 550px;
+  height: 170px;
+  background-color: darkred;
+  border-radius: 10px;
+  display: flex;
+  padding: 15px;
+  color: darkcyan;
+  gap: 15px;
+  align-items: center;
+}
+
+.custom-embed img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.embed-right h3 {
+  margin: 0 0 5px 0;
+  font-size: 20px;
+}
+
+.embed-right p {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+}
+
+.embed-right a {
+  background-color:#cbc7c7;
+  color:darkcyan;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.embed-right a:hover {
+  background: #e5d4ff;
+}
+
 
 .HSSSZ-VidTrailers h3
 {
