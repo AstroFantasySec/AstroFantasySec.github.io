@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  background-color: #00008B;
+  color: white;
+}
+
+#LOGOWEB {
+  text-align: center;
+  margin: 30px auto;
+}
+
+#LOGOWEB img {
+  max-width: 100%;
+  height: auto;
+}
+
+#LOGOWEB p,
+#LOGOWEB h5 {
+  margin: 10px 0;
+}
+
+
+nav {
+  background-color: #9028c5;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.CosmicShooterz-section {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: #9028c5;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.CosmicShooterz_Temp-banner,
+.CosmicShooterz-video {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.CosmicShooterz_Temp-banner img {
+  width: 51%;
+  max-width: 645px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.CosmicShooterz-video iframe {
+  width: 100%;
+  max-width: 850px;
+  height: 520px;
+  border: none;
+  border-radius: 10px;
+}
+
+.CosmicShooterz-VidTrailers iframe
+{
+   width: 100%;
+  max-width: 850px;
+  height: 520px;
+  border: none;
+  border-radius: 10px;
+}
+
+.CosmicShooterz-description {
+  padding: 20px;
+  text-align: center;
+}
+
+.CosmicShooterz-description h3 {
+  margin-bottom: 10px;
+}
+
+.CosmicShooterz-description p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.CosmicShooterz-VidTrailers
+{
+   padding: 20px;
+  text-align: center;
+  
+}
+
+.CosmicShooterz_Widget {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;   /* stack vertically */
+  justify-content: center; 
+  align-items: center;       
+  gap: 25px;                 /* space between top and bottom embed */
+  width: 100%;
+}
+
+
+.custom-embed {
+  width: 550px;
+  height: 170px;
+  background-color: #4e066e;
+  border-radius: 10px;
+  display: flex;
+  padding: 15px;
+  color: #4600ff;
+  gap: 15px;
+  align-items: center;
+}
+
+.custom-embed img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.embed-right h3 {
+  margin: 0 0 5px 0;
+  font-size: 20px;
+}
+
+.embed-right p {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+}
+
+.embed-right a {
+  background-color:#cbc7c7;
+  color:#36e718;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.embed-right a:hover {
+  background: #e5d4ff;
+}
+
+
+.CosmicShooterz-VidTrailers h3
+{
+  margin-bottom: 10px;
+}
+
+.CosmicShooterz-VidTrailers p
+{
+   line-height: 1.6;
+  font-size: 16px;
+}
+
+
+.controls {
+  background-color: #6A0DAD;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Title */
+.controls h3 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  text-decoration: underline;
+  text-align: left;
+}
+
+/*Each row inside controls/
+.keys-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 18px;
+}
+
+
+.keys-row img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+}
+
+.keys-row h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .controls {
+    padding: 15px;
+  }
+
+  .keys-row img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .keys-row h4 {
+    font-size: 16px;
+  }
+}
+
+
+footer {
+  background-color: #9028c5;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  min-width: 200px;
+}
+
+.footer-section img {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin: 5px 0;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .video-section iframe {
+    height: 300px;
+  }
+
+  .footer-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
